@@ -1,7 +1,12 @@
-var express = require('express');
-var exphbs  = require('express-handlebars');
+const express = require('express');
+const exphbs  = require('express-handlebars');
+const port = 3000;
 
-var app = express();
+const app = express();
+
+//set static folder
+app.use(express.static(__dirname + '/resources'));
+
 
 app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
@@ -10,4 +15,6 @@ app.get('/', function (req, res) {
     res.render('home');
 });
 
-app.listen(3000);
+app.listen(port, () => {
+    console.log(`Example app listening at http://localhost:${port}`)
+  })
