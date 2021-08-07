@@ -4,6 +4,10 @@ const port = 3000;
 
 const app = express();
 
+const db  = require('./utils/db');
+
+db.connect();
+
 //set static folder
 app.use(express.static(__dirname + '/resources'));
 
