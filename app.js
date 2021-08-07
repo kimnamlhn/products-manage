@@ -22,6 +22,8 @@ app.set('view engine', 'handlebars');
 
 //middlewares
 require('./middlewares/routes.mdw')(app);
+require('./middlewares/error.mdw')(app);
+
 
 
 app.listen(port, () => {
