@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
+
 async function connect(){
   try {
-    await mongoose.connect('mongodb+srv://namlehoai:namlehoai73@cluster0.nscvy.mongodb.net/products-mongo?retryWrites=true&w=majority', {
+    await mongoose.connect(process.env.DB_MONGO, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,

@@ -4,6 +4,10 @@ const port = 3000;
 const app = express();
 const db  = require('./utils/db');
 
+// Storing configuration in the environment separate from code 
+require('dotenv').config()
+
+
 
 //connect database mongodb
 db.connect();
