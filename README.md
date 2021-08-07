@@ -23,6 +23,13 @@ Step 3: Run application
 
 `npm start`
 
+## Technologies	
+Front-end: HTML, CSS, JS, Handlebars, Bootstrap
+
+Back-end: NodeJS, Express
+
+Database: MongoDB
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
