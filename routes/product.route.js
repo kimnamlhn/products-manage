@@ -9,8 +9,8 @@ router.get('/edit_product', function (req, res) {
     res.render('product/edit_product');
 });
 
-router.get('/delete_product', function (req, res) {
-    res.render('product/delete_product');
+router.get('/del_product', function (req, res) {
+    res.render('product/del_product');
 });
 
 
