@@ -15,14 +15,17 @@ npm install
 
 Step 1: Connect mongodb, here is my connection string into application code
 
-`mongodb+srv://namlehoai:namlehoai73@cluster0.nscvy.mongodb.net/products-mongo?retryWrites=true&w=majority`
+```bash
+mongodb+srv://namlehoai:namlehoai73@cluster0.nscvy.mongodb.net/products-mongo?retryWrites=true&w=majority
+```
 
 Step 2: Installation above
 
 Step 3: Run application 
 
-`npm start`
-
+```bash
+npm start 
+```
 ## Technologies	
 Front-end: HTML, CSS, JS, Handlebars, Bootstrap
 
