@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Giày snaker nam nữ",
+        "description": "Giày được làm bằng 100% chất liệu da thật, mềm và mịn. Phần đế bằng cao su đúc nguyên khối rất chắc chắn và bền.",
+        "prince": 90000,
+        "numProduct": 20,
+        "image": "/images/product_01.jpg"
+    },
+    {
+        "name": "Nón Len Slyder SS",
+        "description": "Nón Len beanie slyder tag, len dệt chuẩn dày với độ co dãn tốt, form phù hợp với mọi lứa tuổi",
+        "prince": 750000,
+        "numProduct": 3,
+        "image": "/images/product_02.jpg"
+    },
+    {
+        "name": "Áo Thun Tay",
+        "description": "Tee Basic Slyder Ss1 - Áo Thun Tay Lỡ Streetwear",
+        "prince": 75000,
+        "numProduct": 20,
+        "image": "/images/product_03.jpg"
+    },
+    {
+        "name": "Nón Len đen trắng",
+        "description": "Nón len đen Trắng Nam Nữ Đế Êm Thoáng Khí Hàng Loại 1 ( Freeship+ Full box + Quà tặng)",
+        "prince": 50000,
+        "numProduct": 20,
+        "image": "/images/product_04.jpg"
+    },
+    {
+        "name": "Mũ lưỡi trai thời trang",
+        "description": " Mũ lưỡi trai êm Thoáng Khí Hàng Loại 1",
+        "prince": 150000,
+        "numProduct": 20,
+        "image": "/images/product_05.jpg"
+    },
+    {
+        "name": "Mũ thời trang mùa đông",
+        "description": "Mũ thời trang mùa đông êm Thoáng Khí Hàng Loại 1 ( Freeship+ Full box + Quà tặng)",
+        "prince": 10000,
+        "numProduct": 20,
+        "image": "/images/product_06.jpg"
+    }
+
+]
+
