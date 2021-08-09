@@ -26,6 +26,9 @@ Step 3: Run application
 ```bash
 npm start 
 ```
+
+**Note: if you can't connect my MongoDB, you can use the folder database to set up.**
+
 ## Technologies	
 Front-end: HTML, CSS, JS, Handlebars, Bootstrap
 
